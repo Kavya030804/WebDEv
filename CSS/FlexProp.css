@@ -1,0 +1,15 @@
+.container{
+    /* justify-content: flex-start; */
+    display: flex;
+    flex-direction: row;
+    border: 3px solid red;
+    /* align-items: flex-end; */
+    height: 700px;
+    flex-wrap: wrap;
+    align-content:center ;
+}
+.item{
+    border: 3px solid green;
+    height: 100px;
+    width: 100px;
+}

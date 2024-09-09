@@ -1,0 +1,20 @@
+li+h2{
+    color: blue;
+    background-color: antiquewhite;
+}
+p+span{
+    background-color: bisque;
+}
+h2:hover{
+    background-color: aqua;
+    color: greenyellow;
+    cursor: pointer;
+}
+ul li:first-child{
+    background-color: antiquewhite;
+    color: red5;
+
+}
+ul li:nth-child(2n+1){
+    
+}

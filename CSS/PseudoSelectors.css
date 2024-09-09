@@ -1,0 +1,39 @@
+/* p::first-line{
+    background-color: antiquewhite;
+    color: blue;
+}
+p::first-letter{
+    background-color: #f5f5dc;
+    color: red;
+    font-size: 50px;+                                                                                                  +
+
+}
+p::selection{
+    color: blueviolet;
+    background-color: pink;
+}
+h2::after{
+    content: " Kavya";
+}
+h2::before{
+    content: " Hii!";
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+.container{
+    border: 3px solid brown;
+    height: 25vh;
+    width: 25vw;
+    font-size: 5px;
+}
+.child{
+    border: 3px solid green;
+    height: 50%;
+    width: 50%;
+    font-size: 2em;
+    /* align-items: center;
+    text-align: center;
+    display: flex; */
+

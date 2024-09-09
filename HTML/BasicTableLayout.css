@@ -1,0 +1,24 @@
+table{
+    border: 2px solid black;
+    border-spacing: 3px;
+    height: 40px;
+    width: 100px;
+}
+th{
+   border: 2px solid olivedrab;
+}
+td{
+    border: 2px solid aquamarine;
+    padding: 20px;
+
+}
+/* tr:nth-of-type(odd){
+    background-color: lightgrey;
+} */
+tr:nth-child(odd){
+    background-color: white;
+
+}
+tr:nth-of-type(3n+6){
+    background-color: lightblue;
+}

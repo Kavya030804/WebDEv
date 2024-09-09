@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="backend.js">
+        <fieldset>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name here" id="name" name="name">
+        </div><br>
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" placeholder="Enter your age here" id="age" name="age">
+        </div><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email here" id="email" name="email">
+        </div><br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter your Password here" id="password" name="password">
+        </div><br>
+        <div>
+            <label for="file">File:</label>
+            <input type="file" placeholder="Enter your file here" id="file" name="file">
+        </div><br>
+        <div>
+            <label for="D.O.B">D.O.B:</label>
+            <input type="date" placeholder="Enter your Date here" id="D.O.B" name="date">
+        </div><br>
+        <div>
+            <label for="time">Time:</label>
+            <input type="time" placeholder="Enter your Time here" id="time" name="time">
+        </div><br>
+        <!-- CHECKBOX -->
+        <div>
+            <label>Gender:</label>
+            <input type="radio" name="abcd">Male
+            <input type="radio" name="abcd">Female
+            <input type="radio" name="abcd">Other
+        </div><br>
+        <div>
+            <label>Movies:</label>
+            <select>
+                <option value="">KGF</option>
+                <option value="">RRR</option>
+                <option value="">STREE2</option>
+                <option value="">KGF2</option>
+                <option value="Other" selected>Other</option>
+            </select>
+        </div><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>

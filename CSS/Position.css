@@ -1,0 +1,38 @@
+/* .main{
+    border: 2px solid black;
+    height: 90vh;
+    width: 90vw;
+    position: relative;
+}
+.container{
+    border: 3px solid green;
+    height: 70%;
+    width: 70%;
+    margin: 30px;
+    position: relative;
+}
+.item{
+    border: 3px solid orange;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+#item2{
+    position: absolute;
+    left: 120px;
+    /* top: -100px; */
+    /* bottom: 10px;
+}
+#item3{
+    position: fixed;   
+    left: 200px;
+}
+#item1{
+    position: sticky;
+    top: 40px;
+} */
+ .container{
+    display: flex;
+    flex-direction: row;
+    
+ }

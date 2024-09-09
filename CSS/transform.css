@@ -1,0 +1,40 @@
+/* div{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    border: 4px solid black;
+} */
+.div1{
+    transform: rotate(40deg);
+    /* transform: skew(60deg);
+    transform: scale(4.6);
+-
+
+}
+.div2:hover{
+    transform: rotate(40deg)
+    /* transform: scale(0.6); */
+
+}
+.div3:hover{
+    transform: translate(200px);
+    background-color: brown;
+    transition-duration: 2s;
+    /* transition: cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+
+}
+.div4:hover{
+   background-color: violet;
+   transform: skew(40deg);
+
+}
+.hover1{
+    text-align: center;
+    background-color: pink;
+
+}
+.hover1:hover{
+    transform: scale(2);
+
+}
