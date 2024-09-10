@@ -9,7 +9,29 @@
     align-content:center ;
 }
 .item{
-    border: 3px solid green;
+    border: 3px solid navy;
     height: 100px;
     width: 100px;
+}
+#item1{
+    order: 1;
+    /* flex-direction: row ; */
+    /* flex-grow: 4; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+    align-self: stretch;
+    
+
+}
+#item2{
+    
+}
+#item3{
+    order : 2;
+}
+#item4{
+    
+}
+#item5{
+    order: 3;
 }
