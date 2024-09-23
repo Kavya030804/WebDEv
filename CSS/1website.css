@@ -69,3 +69,19 @@ h4{
     padding-bottom: 50px;
     padding-top: 20px;
 }
+.footer{
+    /* border: 2px solid orchid; */
+    /* width: 50%; */
+    /* margin: 3px; */
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.read{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
