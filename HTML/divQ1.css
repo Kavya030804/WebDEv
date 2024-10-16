@@ -14,7 +14,6 @@
     float: left;
     width: 70%;
     background-color: aqua;
-
 }
 #sidebar-right{
     float: left;
@@ -30,5 +29,4 @@
 }
 #sidebar-left,#main , #sidebar-right{
     min-height: 600px;
-
 }
