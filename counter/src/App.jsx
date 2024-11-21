@@ -1,7 +1,12 @@
-import Footer from " ./Components/Footer"
-import Navbar from " ./Components/Navbar"
+import { useState } from 'react'
+
+import './App.css'
+
 function App(){
-    let count=0;
+  
+ 
+    
+       let count=0;
     function handleIncrement(){
         count++;
         console.log(count);
@@ -17,4 +22,8 @@ function App(){
         <button onClick={()=>{handleIncrement}}>Increment</button>
         </div>
     )
+    
 }
+
+
+export default App
